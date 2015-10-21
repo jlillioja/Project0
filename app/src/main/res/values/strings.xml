@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project0</string>
+    <string name="action_settings">Settings</string>
+    <string name="project1name">Spotify Streamer</string>
+    <string name="project2name">Super Duo</string>
+    <string name="project3name">Build It Bigger</string>
+    <string name="project4name">XYZ Reader</string>
+    <string name="project5name">Capstone</string>
+</resources>
