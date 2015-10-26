@@ -27,31 +27,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/project1name"
-            android:id="@+id/button1" />
+            android:id="@+id/button1"
+            android:onClick="button1Click"
+            android:textColor="#000000"
+            android:backgroundTint="#64ff00" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/project2name"
-            android:id="@+id/button2" />
+            android:id="@+id/button2"
+            android:onClick="button2Click"
+            android:backgroundTint="#c8ff00" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/project3name"
-            android:id="@+id/button3" />
+            android:id="@+id/button3"
+            android:onClick="button3Click"
+            android:backgroundTint="#ffff00" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/project4name"
-            android:id="@+id/button4" />
+            android:id="@+id/button4"
+            android:onClick="button4Click"
+            android:backgroundTint="#ffc800" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/project5name"
-            android:id="@+id/button5" />
+            android:id="@+id/button5"
+            android:onClick="button5Click"
+            android:backgroundTint="#ff6400" />
 
     </LinearLayout>
 

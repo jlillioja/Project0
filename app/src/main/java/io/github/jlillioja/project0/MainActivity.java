@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,17 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
     @Override
@@ -48,5 +38,29 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showComingSoonSnackbar(String name, View view) {
+        Snackbar.make(view, name + " coming soon!", Snackbar.LENGTH_SHORT).show();
+    }
+
+    public void button1Click(View view) {
+        showComingSoonSnackbar(getString(R.string.project1name), view);
+    }
+
+    public void button2Click(View view) {
+        showComingSoonSnackbar(getString(R.string.project2name), view);
+    }
+
+    public void button3Click(View view) {
+        showComingSoonSnackbar(getString(R.string.project3name), view);
+    }
+
+    public void button4Click(View view) {
+        showComingSoonSnackbar(getString(R.string.project4name), view);
+    }
+
+    public void button5Click(View view) {
+        showComingSoonSnackbar(getString(R.string.project5name), view);
     }
 }
