@@ -29,8 +29,7 @@
             android:text="@string/project1name"
             android:id="@+id/button1"
             android:onClick="button1Click"
-            android:textColor="#000000"
-            android:backgroundTint="#64ff00" />
+            style="@style/GreenButton" />
 
         <Button
             android:layout_width="match_parent"
@@ -38,7 +37,7 @@
             android:text="@string/project2name"
             android:id="@+id/button2"
             android:onClick="button2Click"
-            android:backgroundTint="#c8ff00" />
+            style="@style/ChartreuseButton" />
 
         <Button
             android:layout_width="match_parent"
@@ -46,7 +45,7 @@
             android:text="@string/project3name"
             android:id="@+id/button3"
             android:onClick="button3Click"
-            android:backgroundTint="#ffff00" />
+            style="@style/YellowButton" />
 
         <Button
             android:layout_width="match_parent"
@@ -54,7 +53,7 @@
             android:text="@string/project4name"
             android:id="@+id/button4"
             android:onClick="button4Click"
-            android:backgroundTint="#ffc800" />
+            style="@style/OrangeButton" />
 
         <Button
             android:layout_width="match_parent"
@@ -62,7 +61,8 @@
             android:text="@string/project5name"
             android:id="@+id/button5"
             android:onClick="button5Click"
-            android:backgroundTint="#ff6400" />
+            android:backgroundTint="#ff6400"
+            style="@style/RedButton" />
 
     </LinearLayout>
 

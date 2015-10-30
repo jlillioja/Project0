@@ -14,4 +14,30 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="GreenButton">
+        GreenButton
+        <item name="android:background">@color/Green</item>
+    </style>
+
+    <style name="ChartreuseButton">
+        ChartreuseButton
+        <item name="android:background">@color/Chartreuse</item>
+    </style>
+
+    <style name="YellowButton">
+        YellowButton
+        <item name="android:background">@color/Yellow</item>
+    </style>
+
+    <style name="OrangeButton">
+        OrangeButton
+        <item name="android:background">@color/Orange</item>
+    </style>
+
+    <style name="RedButton">
+        RedButton
+        <item name="android:background">@color/Red</item>
+    </style>
+
+
 </resources>
