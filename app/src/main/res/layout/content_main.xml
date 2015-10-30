@@ -61,7 +61,6 @@
             android:text="@string/project5name"
             android:id="@+id/button5"
             android:onClick="button5Click"
-            android:backgroundTint="#ff6400"
             style="@style/RedButton" />
 
     </LinearLayout>
